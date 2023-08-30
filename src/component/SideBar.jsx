@@ -1,7 +1,6 @@
 import {Generic} from './Generic'
 import {Project} from './Project'
 import './Sidebar.scss'
-import { FaInbox, FaCalendar, FaCalendarAlt, FaChevronDown } from 'react-icons/fa';
 
 
 export function Sidebar(){
