@@ -1,6 +1,6 @@
 import './Header.scss'
 import {FaHome,FaSearch} from 'react-icons/fa'
-import './index.scss'
+import '../index.scss'
 
 export function Search(){
     return <div className='search'>

@@ -1,0 +1,23 @@
+@import '../index.scss';
+
+.sidebar{
+    padding: 12px;
+    font-size: 16px;
+}
+.sidebar div{
+    padding: 8px;
+
+}
+.sidebar div span{
+    padding-left: 5px;
+
+}
+.x:hover{
+    background-color: rgb(243, 240, 240);
+}
+a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 8px;
+}
