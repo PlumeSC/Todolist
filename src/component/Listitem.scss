@@ -22,9 +22,41 @@
         border-radius: 4px;
         &:hover{
             background-color: $grey-light;
+            // font-weight: 700;
         }
 
-        &_icon{}
-        &_text{}
+        &_icon{} 
+        &_text{
+            font-weight: inherit;
+        }
+    }
+}
+
+.active{
+    font-weight: 700;
+}
+
+.accordion{
+    cursor: pointer;
+
+    &_toggle{
+        
+    }
+    &_item{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        font-size: 2rem;
+        padding: 10px;
+        border-radius: 4px;
+    }
+    &_text{
+
+    }
+    &_icon{
+        cursor: pointer;
+        &_active{
+            transform: rotate(-90deg);
+        }
     }
 }
